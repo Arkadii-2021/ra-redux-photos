@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  margin-left: 25px;
+}
+
+.list__photo {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	margin-bottom: 50px;
+}
+
+.photos_all {
+    display: flex;
+    justify-content: center;
+	margin: 0 50px;
+}
